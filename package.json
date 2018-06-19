@@ -1,6 +1,6 @@
 {
   "name": "grindlemire.github.io",
-  "homepage": "https://grindlemire.github.io/",
+  "homepage": "https://grindlemire.github.io/grindlemire.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b master",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
